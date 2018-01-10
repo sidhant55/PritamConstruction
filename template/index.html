@@ -1,0 +1,702 @@
+<!doctype html>
+<html>
+{% load static %}
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1">
+	<title>PC</title>
+	<link rel="icon" href="favicon.png" type="image/png">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/linecons.css" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+	<link href="css/responsive.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" type="text/css">
+
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,700italic,400italic,300italic,300,100italic,100,900italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Dosis:400,500,700,800,600,300,200' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- =======================================================
+    Theme Name: Butterfly
+    Theme URL: https://bootstrapmade.com/butterfly-free-bootstrap-theme/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+	======================================================= -->
+
+	<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript" src="js/classie.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(e) {
+			$('.res-nav_click').click(function() {
+				$('ul.toggle').slideToggle(600)
+			});
+
+			$(document).ready(function() {
+				$(window).bind('scroll', function() {
+					if ($(window).scrollTop() > 0) {
+						$('#header_outer').addClass('fixed');
+					} else {
+						$('#header_outer').removeClass('fixed');
+					}
+				});
+
+			});
+
+
+		});
+
+		function resizeText() {
+			var preferredWidth = 767;
+			var displayWidth = window.innerWidth;
+			var percentage = displayWidth / preferredWidth;
+			var fontsizetitle = 25;
+			var newFontSizeTitle = Math.floor(fontsizetitle * percentage);
+			$(".divclass").css("font-size", newFontSizeTitle)
+		}
+	</script>
+</head>
+
+<body>
+
+	<!--Header_section-->
+	<header id="header_outer">
+		<div class="container">
+			<div class="header_section">
+				<div class="logo"><a href="javascript:void(0)"><img width="450px" src="/static/src/img/logob.png" alt=""></a></div>
+				<nav class="nav" id="nav">
+					<ul class="toggle">
+						<li><a href="#top_content">Home</a></li>
+						<li><a href="#service">Services</a></li>
+						<li><a href="#Portfolio">Portfolio</a></li>
+						<li><a href="#client_outer">Clients</a></li>
+						<li><a href="#team">Team</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+					<ul class="">
+						<li><a href="#top_content">Home</a></li>
+						<li><a href="#service">Services</a></li>
+						<li><a href="#Portfolio">Portfolio</a></li>
+						<li><a href="#client_outer">Clients</a></li>
+						<li><a href="#team">Team</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+				<a class="res-nav_click animated wobble wow" href="javascript:void(0)"><i class="fa-bars"></i></a> </div>
+		</div>
+	</header>
+	<!--Header_section-->
+
+
+	<!--Top_content-->
+	<section id="top_content" class="top_cont_outer">
+		<div class="container">
+		  <h2>SnapShots</h2>  
+		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    <!-- Indicators -->
+		    <ol class="carousel-indicators">
+		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		      <li data-target="#myCarousel" data-slide-to="1"></li>
+		      <li data-target="#myCarousel" data-slide-to="2"></li>
+		    </ol>
+
+		    <!-- Wrapper for slides -->
+		    <div class="carousel-inner">
+		      <div class="item active">
+		        <img height="350" src="slide1.jpg" alt="Los Angeles" style="width:100%;">
+		      </div>
+
+		      <div class="item">
+		        <img height="350" src="slide2.jpg" alt="Chicago" style="width:100%;">
+		      </div>
+		    
+		      <div class="item">
+		        <img height="350" src="slide3.jpg" alt="New york" style="width:100%;">
+		      </div>
+		    </div>
+
+		    <!-- Left and right controls -->
+		    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		      <span class="glyphicon glyphicon-chevron-left"></span>
+		      <span class="sr-only">Previous</span>
+		    </a>
+		    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		      <span class="glyphicon glyphicon-chevron-right"></span>
+		      <span class="sr-only">Next</span>
+		    </a>
+		  </div>
+		</div>
+	</section>
+
+	<!--Top_content-->
+
+
+	<!--Service-->
+	<section id="service">
+		<div class="container">
+			<h2>Services</h2>
+			<div class="service_area">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="service_block">
+							<div class="service_icon delay-03s animated wow  zoomIn"> <span><img src="dismant.png"></img></span> </div>
+							<h3 class="animated fadeInUp wow">Dismantling</h3>
+							<p class="animated fadeInDown wow">Demolition of structures upto five storey building, bunglow, quator. The process is conducted in an efficient, fast and safe way.</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="service_block">
+							<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><img src="const.png"></img></span> </div>
+							<h3 class="animated fadeInUp wow">Construction</h3>
+							<p class="animated fadeInDown wow">All types of civil and mechanical construction are handled by us with cutting edge tools and talented workers</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="service_block">
+							<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><img src="excavtn.jpeg"></img></span> </div>
+							<h3 class="animated fadeInUp wow">Excavation</h3>
+							<p class="animated fadeInDown wow">Preparing base for large buildings, preparing surface for deploying tar, coal minning etc.</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="service_block">
+							<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><img src="mant.png"></img></span> </div>
+							<h3 class="animated fadeInUp wow">Maintenance</h3>
+							<p class="animated fadeInDown wow">Complete maintenance of furnance, quator, park, streets and different material objects which is done with proper care and long lasting effects</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Service-->
+
+	<!--new_portfolio-->
+
+	<!-- Portfolio -->
+	<section id="Portfolio" class="content" style="background-color: #f9f9f9">
+
+		<!-- Container -->
+		<div class="container portfolio-title">
+
+			<!-- Section Title -->
+			<div class="section-title">
+				<h2>Portfolio</h2>
+			</div>
+			<!--/Section Title -->
+
+		</div>
+		<!-- Container -->
+
+		<div class="portfolio-top"></div>
+
+		<!-- Portfolio Plus Filters -->
+		<div class="portfolio">
+
+			<!-- Portfolio Filters -->
+			<div id="filters" class="sixteen columns">
+				<ul class="clearfix">
+					<li>
+						<a id="all" href="#" data-filter="*" class="active">
+							<h5>All</h5>
+						</a>
+					</li>
+					<li>
+						<a class="" href="#" data-filter=".branding">
+							<h5>Branding</h5>
+						</a>
+					</li>
+					<li>
+						<a class="" href="#" data-filter=".design">
+							<h5>Design</h5>
+						</a>
+					</li>
+					<li>
+						<a class="" href="#" data-filter=".photography">
+							<h5>Photography</h5>
+						</a>
+					</li>
+					<li>
+						<a class="" href="#" data-filter=".videography">
+							<h5>Videography</h5>
+						</a>
+					</li>
+					<li>
+						<a class="" href="#" data-filter=".web">
+							<h5>Web</h5>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--/Portfolio Filters -->
+
+			<!-- Portfolio Wrap -->
+			<div class="isotope" style="position: relative; overflow: hidden; height: 480px;" id="portfolio-wrap">
+
+				<!-- Portfolio Item With PrettyPhoto  -->
+				<div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
+					<div class="portfolio-image"> <img src="img/portfolio_pic1.jpg" alt="Portfolio 1"> </div>
+					<a title="Starbucks Coffee" rel="prettyPhoto[galname]" href="http://clapat.ro/themes/newave/images/portfolio/portfolio2.jpg">
+						<div class="project-overlay">
+							<div class="project-info">
+								<div class="zoom-icon"></div>
+								<h4 class="project-name">Leica Camera</h4>
+								<p class="project-categories">Videography</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<!--/Portfolio Item With PrettyPhoto  -->
+
+				<!-- Portfolio Item Video Expander  -->
+				<div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+					<div class="portfolio-image"> <img src="img/portfolio_pic2.jpg" alt="Portfolio 1"> </div>
+					<div class="project-overlay">
+						<div class="open-project-link"> <a class="open-project" href="http://clapat.ro/themes/newave/project-video-expander.html" title="Open Project"></a> </div>
+						<div class="project-info">
+							<div class="zoom-icon"></div>
+							<h4 class="project-name">Foto Template</h4>
+							<p class="project-categories">Design</p>
+						</div>
+					</div>
+				</div>
+				<!--/Portfolio Item Video Expander  -->
+
+				<!-- Portfolio Item Normal Expander -->
+				<div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item">
+					<div class="portfolio-image"> <img src="img/portfolio_pic3.jpg" alt="Portfolio 1"> </div>
+					<div class="project-overlay">
+						<div class="open-project-link"> <a class="open-project" href="http://clapat.ro/themes/newave/project-normal-expander-1.html" title="Open Project"></a> </div>
+						<div class="project-info">
+							<div class="zoom-icon"></div>
+							<h4 class="project-name">Sony Phone</h4>
+							<p class="project-categories">Design</p>
+						</div>
+					</div>
+				</div>
+				<!--/Portfolio Item Normal Expander -->
+
+				<!-- Portfolio Item FullScreen Expander -->
+				<div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  photography  branding web isotope-item">
+					<div class="portfolio-image"> <img src="img/portfolio_pic4.jpg" alt="Portfolio 1"> </div>
+					<div class="project-overlay">
+						<div class="open-project-link"> <a class="open-project" href="http://clapat.ro/themes/newave/project-fullscreen-expander-1.html" title="Open Project"></a> </div>
+						<div class="project-info">
+							<div class="zoom-icon"></div>
+							<h4 class="project-name">Nike Shoes</h4>
+							<p class="project-categories">Photography, Web, Branding</p>
+						</div>
+					</div>
+				</div>
+				<!-- Portfolio Item FullScreen Expander -->
+
+				<!-- Portfolio Item FullScreen Expander -->
+				<div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+					<div class="portfolio-image"> <img src="img/portfolio_pic5.jpg" alt="Portfolio 1"> </div>
+					<div class="project-overlay">
+						<div class="open-project-link"> <a class="open-project" href="http://clapat.ro/themes/newave/project-fullscreen-expander-2.html" title="Open Project"></a> </div>
+						<div class="project-info">
+							<div class="zoom-icon"></div>
+							<h4 class="project-name">Vinyl Record</h4>
+							<p class="project-categories">Design</p>
+						</div>
+					</div>
+				</div>
+				<!--/Portfolio Item FullScreen Expander -->
+
+				<!-- Portfolio Item Normal Expander -->
+				<div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item">
+					<div class="portfolio-image"> <img src="img/portfolio_pic6.jpg" alt="Portfolio 1"> </div>
+					<div class="project-overlay">
+						<div class="open-project-link"> <a class="open-project" href="http://clapat.ro/themes/newave/project-normal-expander-2.html" title="Open Project"></a> </div>
+						<div class="project-info">
+							<div class="zoom-icon"></div>
+							<h4 class="project-name">iPhone</h4>
+							<p class="project-categories">Web</p>
+						</div>
+					</div>
+				</div>
+				<!--/Portfolio Item Normal Expander -->
+
+				<!-- Portfolio Item External Project  -->
+				<div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item">
+					<div class="portfolio-image"> <img src="img/portfolio_pic7.jpg" alt="Portfolio 1"> </div>
+					<a href="http://clapat.ro/themes/newave/project-external-1.html" class="external">
+						<div class="project-overlay">
+							<div class="project-info">
+								<div class="zoom-icon"></div>
+								<h4 class="project-name">Nexus Phone</h4>
+								<p class="project-categories">Design, Web</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<!--/Portfolio Item External Project  -->
+
+				<!-- Portfolio Item With PrettyPhoto  -->
+				<div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   photography isotope-item">
+					<div class="portfolio-image"> <img src="img/portfolio_pic8.jpg" alt="Portfolio 1"> </div>
+					<a title="Stereo Headphones" rel="prettyPhoto[galname]" href="http://clapat.ro/themes/newave/images/portfolio/portfolio8.jpg">
+						<div class="project-overlay">
+							<div class="project-info">
+								<div class="zoom-icon"></div>
+								<h4 class="project-name">Art Frame</h4>
+								<p class="project-categories">Photography</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<!--/Portfolio Item With PrettyPhoto  -->
+
+			</div>
+			<!--/Portfolio Wrap -->
+
+		</div>
+		<!--/Portfolio Plus Filters -->
+
+		<div class="portfolio-bottom"></div>
+
+		<!-- Project Page Holder-->
+		<div id="project-page-holder">
+			<div class="clear"></div>
+			<div id="project-page-data"></div>
+		</div>
+		<!--/Project Page Holder-->
+
+	</section>
+	<!--/Portfolio -->
+
+	<!--new_portfolio-->
+
+	<!--
+<section class="main-section paddind" id="Portfolio">
+	<div class="container">
+    	<h2>Portfolio</h2>
+    	<h6>Fresh portfolio of designs that will keep you wanting more.</h6>
+	</div>
+
+
+</section>
+
+-->
+
+	<section class="main-section" id="client_outer">
+		<!--main-section client-part-start-->
+		<h2>Happy Clients</h2>
+		<div class="client_area ">
+			<div class="client_section animated  fadeInUp wow">
+				<div class="client_profile">
+					<div class="client_profile_pic"><img src="img/tata.jpeg" alt=""></div>
+					<h3>Tata Steel</h3>
+					<span>Lawless Inc</span> </div>
+				<div class="quote_section">
+					<div class="quote_arrow"></div>
+					<p><b><img src="img/quote_sign_left.png" alt=""></b>Providing service to Tata Steel since 20 years in different fields like civil, mechanical construction and maintenance inside the company where strict safety rules need to be followed. We have been rated four star and are among very few other respected company achieving this feet.<small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="client_section animated  fadeInDown wow">
+				<div class="client_profile flt">
+					<div class="client_profile_pic"><img src="img/jusco.jpeg" alt=""></div>
+					<h3>Jusco</h3>
+					<span>DEA Foundation</span> </div>
+				<div class="quote_section flt">
+					<div class="quote_arrow2"></div>
+					<p><b><img src="img/quote_sign_left.png" alt=""></b>One of the respected company in the eyes of Jusco and was a part of many development and maintenance projects inside Jamshedpur city. <small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="client_section animated  fadeInUp wow">
+				<div class="client_profile">
+					<div class="client_profile_pic"><img src="img/madhucon.jpeg" alt=""></div>
+					<h3>Madhucon</h3>
+					<span>Lawless Inc</span> </div>
+				<div class="quote_section">
+					<div class="quote_arrow"></div>
+					<p><b><img src="img/quote_sign_left.png" alt=""></b>Prepared 5 Kilo Meter NH-33 ramp for building national highway road. This include building three puliya along banking of road and other engineering challenges<small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="client_section animated  fadeInDown wow">
+				<div class="client_profile flt">
+					<div class="client_profile_pic"><img src="img/tata.jpeg" alt=""></div>
+					<h3>Tata Mines</h3>
+					<span>DEA Foundation</span> </div>
+				<div class="quote_section flt">
+					<div class="quote_arrow2"></div>
+					<p><b><img src="img/quote_sign_left.png" alt=""></b>Worked for three years under Tata mining at coal mines in Joda. Heavy Machinery were deployed with higher works hours and increased work speed<small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</section>
+	<!--main-section client-part-end-->
+
+
+	<section class="main-section team" id="team" style="background-color: #f9f9f9">
+		<!--main-section team-start-->
+		<div class="container">
+			<h2>Amazing Team</h2>
+			<h6>Take a closer look into our amazing team.</h6>
+			<div class="team-leader-block clearfix">
+				<div class="team-leader-box">
+					<div class="team-leader wow fadeInDown delay-03s">
+						<div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+						<img src="img/team-leader-pic1.jpg" alt="">
+						<ul>
+							<!-- <li><a href="javascript:void(0)" class="fa-twitter"></a></li> -->
+							<li><a href="https://www.facebook.com/srikant.mishra.79025" class="fa-facebook"></a></li>
+<!-- 							<li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+							<li><a href="javascript:void(0)" class="fa-google-plus"></a></li> -->
+						</ul>
+					</div>
+					<h3 class="wow fadeInDown delay-03s">Srikant Mishra</h3>
+					<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>
+					<p class="wow fadeInDown delay-03s">Branding Pritam Construction</p>
+				</div>
+				<div class="team-leader-box">
+					<div class="team-leader  wow fadeInDown delay-06s">
+						<div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+						<img src="img/team-leader-pic2.jpg" alt="">
+						<ul>
+							<!-- <li><a href="javascript:void(0)" class="fa-twitter"></a></li> -->
+							<li><a href="https://www.facebook.com/profile.php?id=100009345712122" class="fa-facebook"></a></li>
+							<!-- <li><a href="javascript:void(0)" class="fa-pinterest"></a></li> -->
+							<!-- <li><a href="javascript:void(0)" class="fa-google-plus"></a></li> -->
+						</ul>
+					</div>
+					<h3 class="wow fadeInDown delay-06s">Pankaj Tiwari</h3>
+					<span class="wow fadeInDown delay-06s">Manager</span>
+					<p class="wow fadeInDown delay-06s">Aiming at building up the company to greater heights</p>
+				</div>
+				<div class="team-leader-box">
+					<div class="team-leader wow fadeInDown delay-09s">
+						<div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+						<img src="img/team-leader-pic3.jpg" alt="">
+						<ul>
+							<li><a href="https://twitter.com/SidhantMishra4" class="fa-twitter"></a></li>
+							<li><a href="https://www.facebook.com/sidhant55" class="fa-facebook"></a></li>
+							<!-- <li><a href="javascript:void(0)" class="fa-pinterest"></a></li> -->
+							<li><a href="https://plus.google.com/115539565749729379350" class="fa-google-plus"></a></li>
+						</ul>
+					</div>
+					<h3 class="wow fadeInDown delay-09s">Sidhant Mishra</h3>
+					<span class="wow fadeInDown delay-09s">Developer</span>
+					<p class="wow fadeInDown delay-09s">Providing software services to Pritam Construction</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--main-section team-end-->
+
+	<!--twitter-feed-end-->
+	<footer class="footer_section" id="contact" style="padding-bottom: 200px">
+		<div class="container">
+			<section class="main-section contact" id="contact">
+				<div class="contact_section" style="padding-bottom: 100px">
+					<h2>Contact Us</h2>
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="contact_block">
+								<div class="contact_block_icon rollIn animated wow"><span><i class="fa-home"></i></span></div>
+								<span> 4th floor, Bala Complex <br>
+              R road, Bistupur, Jamshedpur </span> </div>
+						</div>
+						<div class="col-lg-4">
+							<div class="contact_block">
+								<div class="contact_block_icon icon2 rollIn animated wow"><span><i class="fa-phone"></i></span></div>
+								<span>9279503855</span> </div>
+						</div>
+						<div class="col-lg-4">
+							<div class="contact_block">
+								<div class="contact_block_icon icon3 rollIn animated wow"><span><i class="fa-pencil"></i></span></div>
+								<span> <a href="mailto:hello@butterfly.com">pritamconstruction@gmail.com</a> </span> </div>
+						</div>
+					</div>
+				</div>
+<!-- 				<div class="row">
+					<div class="col-lg-6 wow fadeInLeft">
+						<div class="contact-info-box address clearfix">
+							<h3>Don’t be shy. Say hello!</h3>
+							<p>Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquam, risus at semper. Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquam, risus at semper.</p>
+							<p>Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquampor id.</p>
+						</div>
+						<ul class="social-link">
+							<li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa-twitter"></i></a></li>
+							<li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa-facebook"></i></a></li>
+							<li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fa-pinterest"></i></a></li>
+							<li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa-google-plus"></i></a></li>
+							<li class="dribbble animated bounceIn wow delay-06s"><a href="javascript:void(0)"><i class="fa-dribbble"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-6 wow fadeInUp delay-06s">
+						<div class="form">
+							<div id="sendmessage">Your message has been sent. Thank you!</div>
+							<div id="errormessage"></div>
+							<form action="" method="post" role="form" class="contactForm">
+								<div class="form-group">
+									<input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+									<div class="validation"></div>
+								</div>
+								<div class="form-group">
+									<input type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+									<div class="validation"></div>
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+									<div class="validation"></div>
+								</div>
+								<div class="form-group">
+									<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+									<div class="validation"></div>
+								</div>
+
+								<button type="submit" class="btn input-btn">SEND MESSAGE</button>
+							</form>
+						</div>
+					</div>
+				</div> -->
+			</section>
+		</div>
+		<div class="container">
+			<div class="footer_bottom">
+				<span>Copyright © 2018 PritamConstruction. All rights reserved</span>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		$(document).ready(function(e) {
+			$('#header_outer').scrollToFixed();
+			$('.res-nav_click').click(function() {
+				$('.main-nav').slideToggle();
+				return false
+
+			});
+
+		});
+	</script>
+	<script>
+		wow = new WOW({
+			animateClass: 'animated',
+			offset: 100
+		});
+		wow.init();
+		document.getElementById('').onclick = function() {
+			var section = document.createElement('section');
+			section.className = 'wow fadeInDown';
+			section.className = 'wow shake';
+			section.className = 'wow zoomIn';
+			section.className = 'wow lightSpeedIn';
+			this.parentNode.insertBefore(section, this);
+		};
+	</script>
+	<script type="text/javascript">
+		$(window).load(function() {
+
+			$('a').bind('click', function(event) {
+				var $anchor = $(this);
+
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top - 91
+				}, 1500, 'easeInOutExpo');
+				/*
+				if you don't want to use the easing effects:
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top
+				}, 1000);
+				*/
+				event.preventDefault();
+			});
+		})
+	</script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			// Portfolio Isotope
+			var container = $('#portfolio-wrap');
+
+
+			container.isotope({
+				animationEngine: 'best-available',
+				animationOptions: {
+					duration: 200,
+					queue: false
+				},
+				layoutMode: 'fitRows'
+			});
+
+			$('#filters a').click(function() {
+				$('#filters a').removeClass('active');
+				$(this).addClass('active');
+				var selector = $(this).attr('data-filter');
+				container.isotope({
+					filter: selector
+				});
+				setProjects();
+				return false;
+			});
+
+
+			function splitColumns() {
+				var winWidth = $(window).width(),
+					columnNumb = 1;
+
+
+				if (winWidth > 1024) {
+					columnNumb = 4;
+				} else if (winWidth > 900) {
+					columnNumb = 2;
+				} else if (winWidth > 479) {
+					columnNumb = 2;
+				} else if (winWidth < 479) {
+					columnNumb = 1;
+				}
+
+				return columnNumb;
+			}
+
+			function setColumns() {
+				var winWidth = $(window).width(),
+					columnNumb = splitColumns(),
+					postWidth = Math.floor(winWidth / columnNumb);
+
+				container.find('.portfolio-item').each(function() {
+					$(this).css({
+						width: postWidth + 'px'
+					});
+				});
+			}
+
+			function setProjects() {
+				setColumns();
+				container.isotope('reLayout');
+			}
+
+			container.imagesLoaded(function() {
+				setColumns();
+			});
+
+
+			$(window).bind('resize', function() {
+				setProjects();
+			});
+
+		});
+		$(window).load(function() {
+			jQuery('#all').click();
+			return false;
+		});
+	</script>
+	<script src="contactform/contactform.js"></script>
+
+</body>
+</html>
