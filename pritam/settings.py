@@ -27,7 +27,7 @@ SECRET_KEY = '4aa#yu8f^_sk09a%2k-3k($$p4)ar))*!cd3wqr7krjf7v(wl&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost','pritamconstruction.herokuapp.com']
 
 
 # Application definition
