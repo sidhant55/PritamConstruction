@@ -1,10 +1,33 @@
 <!doctype html>
 <html>
-{% load static %}
 <head>
+	<style type="text/css">
+		@media (max-width: 1000px) {
+    	body
+    	{
+    		background-color: black;
+    	}
+    }
+    @media (max-width: 950px) {
+    .IconImg
+    {
+    	max-width: 300%;
+    	/*padding-left: -15px;*/
+    	margin-left: -100px;
+    }
+	}
+/*	@media (max-width: 1000px) {
+    .IconImg
+    {
+    	max-width: 300%;
+    	/*padding-left: -15px;*/
+    	margin-left: -100px;
+    }
+	}*/
+	</style>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, maximum-scale=1">
-	<title>PC</title>
+	<title>PritamConstruction</title>
 	<link rel="icon" href="/static/favicon.png" type="image/png">
 	<link href="/static/css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="/static/css/style.css" rel="stylesheet" type="text/css">
@@ -72,7 +95,7 @@
 	<header id="header_outer">
 		<div class="container">
 			<div class="header_section">
-				<div class="logo"><a href="javascript:void(0)"><img width="450px" src="/static/img/logob.png" alt=""></a></div>
+				<div class="logo"><a href="javascript:void(0)"><img class="IconImg" width="450" src="/static/img/logob.png" alt=""></a></div>
 				<nav class="nav" id="nav">
 					<ul class="toggle">
 						<li><a href="#top_content">Home</a></li>
@@ -81,6 +104,7 @@
 						<li><a href="#client_outer">Clients</a></li>
 						<li><a href="#team">Team</a></li>
 						<li><a href="#contact">Contact</a></li>
+						<li><a href="#contact"></a></li>
 					</ul>
 					<ul class="">
 						<li><a href="#top_content">Home</a></li>
@@ -88,6 +112,7 @@
 						<li><a href="#Portfolio">Portfolio</a></li>
 						<li><a href="#client_outer">Clients</a></li>
 						<li><a href="#team">Team</a></li>
+						<li><a href="#contact">Contact</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
@@ -490,7 +515,7 @@
 						</ul>
 					</div>
 					<h3 class="wow fadeInDown delay-09s">Sidhant Mishra</h3>
-					<span class="wow fadeInDown delay-09s">Developer</span>
+					<span class="wow fadeInDown delay-09s">Software Developer</span>
 					<p class="wow fadeInDown delay-09s">Providing software services to Pritam Construction</p>
 				</div>
 			</div>
