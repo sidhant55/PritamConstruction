@@ -158,7 +158,7 @@
 
 @media only screen and (max-width: 479px) {
 	/****Mobile Portrait 320 ****/
-	#filters ul li{ display:block;}
+	/*#filters ul li{ display:block;}*/
 	.contact-info-box{ margin-left:0px;}
 	.header{ padding:40px;}
 	.social-link{ margin-left:0px;}
